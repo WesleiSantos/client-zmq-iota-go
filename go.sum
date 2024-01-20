@@ -1,0 +1,4 @@
+github.com/kyokomi/emoji/v2 v2.2.12 h1:sSVA5nH9ebR3Zji1o31wu3yOwD1zKXQA2z0zUyeit60=
+github.com/kyokomi/emoji/v2 v2.2.12/go.mod h1:JUcn42DTdsXJo1SWanHh4HKDEyPaR5CqkmoirZZP9qE=
+github.com/pebbe/zmq4 v1.2.10 h1:wQkqRZ3CZeABIeidr3e8uQZMMH5YAykA/WN0L5zkd1c=
+github.com/pebbe/zmq4 v1.2.10/go.mod h1:nqnPueOapVhE2wItZ0uOErngczsJdLOGkebMxaO8r48=
