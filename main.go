@@ -208,13 +208,13 @@ func main() {
 	subscriber.SetSubscribe(*topicStr)
 
 	// Canal para transmitir mensagens da função receiveMessages para a goroutine saveToMap
-	messageChan := make(chan MessageWithTimestamp)
+	messageChan := make(chan MessageWithTimestamp, *size)
 
 	// Canal para sinalizar a parada
-	stopChan := make(chan struct{})
+	stopChan := make(chan struct{}, 1)
 
 	// Canal para sinalizar a conclusão
-	done := make(chan struct{})
+	done := make(chan struct{}, 1)
 
 	// Mapa seguro para armazenar as mensagens
 	var messageMap sync.Map
